@@ -86,7 +86,7 @@ const Skills: React.FC = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center mb-12">
             <div className="relative rounded-xl overflow-hidden shadow-xl">
               <img 
-                src="/srcpics/niflamicrotest.jpg"
+                src="/images/niflamicrotest.jpg"
                 alt="Laboratory Work"
                 className="w-full h-[900px] object-cover"
               />

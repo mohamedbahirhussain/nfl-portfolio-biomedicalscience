@@ -8,9 +8,9 @@ const Hero: React.FC = () => {
       className="min-h-screen flex items-center relative bg-gradient-to-br from-teal-50 to-blue-50 pt-16"
     >
       <div 
-        className="absolute inset-0 opacity-10"
+        className="absolute inset-0 opacity-50"
         style={{
-          backgroundImage: `url('/srcpics/niflabldtest.jpg')`,
+          backgroundImage: `url('/images/niflabldtest.jpg')`,
           backgroundSize: 'cover',
           backgroundPosition: 'center',
         }}
@@ -29,19 +29,21 @@ const Hero: React.FC = () => {
             eager to contribute to advancements in the biomedical field.
           </p>
           <div className="mt-8 flex flex-col sm:flex-row justify-center md:justify-start space-y-4 sm:space-y-0 sm:space-x-4">
-            <a 
-              href="#contact" 
-              className="px-6 py-3 bg-teal-600 text-white font-semibold rounded-md hover:bg-teal-700 transition-colors shadow-lg hover:shadow-xl"
-            >
-              Download CV
-            </a>
-             
-          </div>
+  <a 
+    href="https://drive.google.com/uc?export=download&id=1XLc5LGjGHSIZ2nEM1RxWYCQD7s2z76P3" 
+    target="_blank"
+    rel="noopener noreferrer"
+    className="px-6 py-3 bg-teal-600 text-white font-semibold rounded-md hover:bg-teal-700 transition-colors shadow-lg hover:shadow-xl"
+  >
+    Download CV
+  </a>
+</div>
+
         </div>
         <div className="md:w-1/2 flex justify-center">
           <div className="relative w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-white shadow-xl">
             <img 
-              src="/srcpics/Niflaprflpic.jpg" 
+              src="/images/Niflaprflpic.jpg" 
               alt="Biomedical Professional" 
               className="w-full h-full object-cover"
             />
