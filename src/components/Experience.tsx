@@ -12,15 +12,15 @@ const Experience: React.FC = () => {
       icon: <GraduationCap size={24} />,
       color: 'from-teal-500 to-teal-600'
     },
-    {
-      id: 2,
-      title: 'Laboratory Intern',
-      company: 'Medical Research Institute',
-      period: '2023 (6 months)',
-      description: 'Gained practical experience in a professional laboratory setting. Assisted in specimen collection, basic clinical testing, and laboratory maintenance procedures.',
-      icon: <Briefcase size={24} />,
-      color: 'from-blue-500 to-blue-600'
-    }
+    // {
+    //   id: 2,
+    //   title: 'Laboratory Intern',
+    //   company: 'Medical Research Institute',
+    //   period: '2023 (6 months)',
+    //   description: 'Gained practical experience in a professional laboratory setting. Assisted in specimen collection, basic clinical testing, and laboratory maintenance procedures.',
+    //   icon: <Briefcase size={24} />,
+    //   color: 'from-blue-500 to-blue-600'
+    // }
   ];
 
   return (
