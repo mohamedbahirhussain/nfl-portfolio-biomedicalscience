@@ -8,6 +8,10 @@ import Experience from './components/Experience';
 import Achievements from './components/Achievements';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
+import VideoTeaching from './components/VideoTeaching';
+import Research from './components/Research';
+import Blog from './components/Blog';
+
 
 function App() {
   useEffect(() => {
@@ -39,6 +43,9 @@ function App() {
         <Experience />
         <Education />
         <Achievements />
+        <Research />
+        <Blog />
+        <VideoTeaching />
         <Contact />
       </main>
       <Footer />

@@ -5,7 +5,7 @@ const Education: React.FC = () => {
   const educationData = [
     {
       id: 1,
-      years: '2024 - Present',
+      years: '2024 - 2028',
       degree: 'Bachelor of Biomedical Science',
       institution: 'Kaatsu International University',
       description: 'Currently pursuing a comprehensive program covering biological sciences, laboratory techniques, and research methodologies.',

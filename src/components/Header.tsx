@@ -24,6 +24,9 @@ const Header: React.FC = () => {
     { id: 'education', label: 'Education' },
     { id: 'skills', label: 'Skills' },
     { id: 'experience', label: 'Experience' },
+    { id: 'research', label: 'Research' },
+    { id: 'blog', label: 'Blog' },
+    { id: 'video-teaching', label: 'Teaching' },
     { id: 'contact', label: 'Contact' },
   ];
 

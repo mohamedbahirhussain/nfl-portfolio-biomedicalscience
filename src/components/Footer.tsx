@@ -19,6 +19,9 @@ const Footer: React.FC = () => {
           <a href="#education" className="hover:text-teal-400 transition-colors">Education</a>
           <a href="#skills" className="hover:text-teal-400 transition-colors">Skills</a>
           <a href="#experience" className="hover:text-teal-400 transition-colors">Experience</a>
+          <a href="#research" className="hover:text-teal-400 transition-colors">Research and Practicals</a>
+          <a href="#blog" className="hover:text-teal-400 transition-colors">Blog</a>
+          <a href="#video-teaching" className="hover:text-teal-400 transition-colors">Teaching</a>
           <a href="#contact" className="hover:text-teal-400 transition-colors">Contact</a>
         </div>
 
