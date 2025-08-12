@@ -79,7 +79,7 @@ const Research: React.FC = () => {
           id: 'v2',
           title: 'Basic Chemistry - Nifla',
           description: 'Fundamental chemistry concepts demonstrated with practical lab tests.',
-          thumbnail: 'public/images/niflamicrotest.jpg',
+          thumbnail: '/images/niflamicrotest.jpg',
           duration: '10:30',
           url: '/videos/BasicChemistryNifla.mp4', // Updated to web-accessible path
           type: 'practical'
@@ -126,7 +126,7 @@ const Research: React.FC = () => {
       id: 'v5',
       title: 'Blood Withdrawal Demonstration',
       description: 'Visual guide to performing blood withdrawal safely and effectively.',
-      thumbnail: 'public/images/bloodwithdrawal.png',
+      thumbnail: '/images/bloodwithdrawal.png',
       duration: '7:30',
       url: '/videos/BloodWithdrawlNifla.mp4',
       type: 'practical'
@@ -173,7 +173,7 @@ const Research: React.FC = () => {
       id: 'v5',
       title: 'Laboratory Safety Procedures',
       description: 'Step-by-step overview of essential lab safety procedures including handling chemicals and emergency protocols.',
-      thumbnail: 'public/images/niflachemicalmixing.jpg',
+      thumbnail: '/images/niflachemicalmixing.jpg',
       duration: '12:30',
       url: '/videos/LabSafetyNifla.mp4',
       type: 'practical'
@@ -220,7 +220,7 @@ const Research: React.FC = () => {
       id: 'v4',
       title: 'Microbial Culture and Sensitivity Testing',
       description: 'Step-by-step demonstration of microbial culture preparation and antibiotic sensitivity testing in the lab.',
-      thumbnail: 'public/images/niflamicrotest.jpg',
+      thumbnail: '/images/niflamicrotest.jpg',
       duration: '8:15',
       url: '/videos/MicrobilogyNifla.mp4',
       type: 'practical'
