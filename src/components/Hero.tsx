@@ -30,7 +30,7 @@ const Hero: React.FC = () => {
           </p>
           <div className="mt-8 flex flex-col sm:flex-row justify-center md:justify-start space-y-4 sm:space-y-0 sm:space-x-4">
   <a 
-    href="https://drive.google.com/uc?export=download&id=18VKN68ncJ_qgsWArm4vDBEtIQT9RHAl_" 
+    href="https://drive.google.com/uc?export=download&id=1I3Uyyiizsr7FKb1Nzx-nzCv79pvB7A8O" 
     target="_blank"
     rel="noopener noreferrer"
     className="px-6 py-3 bg-teal-600 text-white font-semibold rounded-md hover:bg-teal-700 transition-colors shadow-lg hover:shadow-xl"
