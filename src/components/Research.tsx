@@ -71,8 +71,8 @@ const Research: React.FC = () => {
         'Undergraduate Chemistry Research Society'
       ],
       images: [
-        'public/images/labsafetyreport.jpg',
-    'public/images/niflabldtest.jpg',
+        '/images/labsafetyreport.jpg',
+    '/images/niflabldtest.jpg',
       ],
       videos: [
         {
@@ -118,8 +118,8 @@ const Research: React.FC = () => {
     'Clinical Skills Department'
   ],
   images: [
-    'public/images/niflabloodtake.jpg',
-    'public/images/niflabldtest.jpg',
+    '/images/niflabloodtake.jpg',
+    '/images/niflabldtest.jpg',
   ],
   videos: [
     {
@@ -165,8 +165,8 @@ const Research: React.FC = () => {
     'Safety First Institute'
   ],
   images: [
-    'public/images/labsafetyreport.jpg',
-    'public/images/niflachemicalheat.jpg',
+    '/images/labsafetyreport.jpg',
+    '/images/niflachemicalheat.jpg',
   ],
   videos: [
     {
@@ -212,8 +212,8 @@ const Research: React.FC = () => {
     'National Microbiology Association'
   ],
   images: [
-    'public/images/niflamicrotest02.jpg',
-    'public/images/microtest.jpg',
+    '/images/niflamicrotest02.jpg',
+    '/images/microtest.jpg',
   ],
   videos: [
     {
