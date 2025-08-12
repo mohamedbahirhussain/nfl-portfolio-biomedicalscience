@@ -79,7 +79,7 @@ const Research: React.FC = () => {
           id: 'v2',
           title: 'Basic Chemistry - Nifla',
           description: 'Fundamental chemistry concepts demonstrated with practical lab tests.',
-          thumbnail: '/images/niflamicrotest.jpg',
+          thumbnail: '/images/labsafetyreport.jpg',
           duration: '10:30',
           url: '/videos/BasicChemistryNifla.mp4', // Updated to web-accessible path
           type: 'practical'
