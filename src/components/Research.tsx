@@ -90,7 +90,7 @@ const Research: React.FC = () => {
   id: 2,
   title: 'Blood Withdrawal Practical',
   status: 'Completed',
-  duration: '2023 - 2024',
+  duration: '2023 - Present',
   description: 'Step-by-step practical demonstration of safe and effective blood withdrawal techniques following clinical standards.',
   methodology: ['Patient Preparation', 'Venipuncture Technique', 'Sample Collection', 'Safety Protocols'],
   icon: <TrendingUp size={24} />,
@@ -137,7 +137,7 @@ const Research: React.FC = () => {
   id: 2,
   title: 'Lab Safety',
   status: 'Completed',
-  duration: '2023 - 2024',
+  duration: '2023 - Present',
   description: 'Comprehensive study and implementation of laboratory safety protocols to minimize hazards and ensure compliance with regulatory standards.',
   methodology: ['Risk Assessment', 'Safety Training', 'Protocol Development'],
   icon: <TrendingUp size={24} />,
@@ -184,7 +184,7 @@ const Research: React.FC = () => {
   id: 2,
   title: 'Microbiology Test',
   status: 'Completed',
-  duration: '2023 - 2024',
+  duration: '2023 - Present',
   description: 'Comprehensive analysis of microbial cultures to identify pathogenic bacteria and evaluate antibiotic susceptibility in clinical samples.',
   methodology: ['Microbial Culture', 'Antibiotic Sensitivity Testing', 'Microscopic Examination'],
   icon: <TrendingUp size={24} />,
@@ -367,12 +367,12 @@ const Research: React.FC = () => {
                 {/* Video Section */}
                 {project.videos.length > 0 && (
                   <div className="relative">
-                    <div className="aspect-video bg-gray-100 overflow-hidden">
-                      <img
-                        src={project.videos[0].thumbnail}
-                        alt={project.videos[0].title}
-                        className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
-                      />
+                   <div className="relative bg-gray-100 overflow-hidden w-full max-w-6xl mx-auto h-[500px] rounded-lg shadow-lg">
+    <img
+      src={project.videos[0].thumbnail}
+      alt={project.videos[0].title}
+      className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500 rounded-lg"
+    />
                       <div className="absolute inset-0 bg-black/20 group-hover:bg-black/40 transition-colors duration-300 flex items-center justify-center">
                         <button
                           onClick={(e) => openVideoModal(project.videos[0], e)}
